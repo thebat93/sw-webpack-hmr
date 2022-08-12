@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext",
+      "esnext.intl",
+      "es2017.intl",
+      "es2018.intl",
+      "webworker"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": false,
+    "jsx": "react",
+    "sourceMap": true,
+    "preserveSymlinks": true,
+    "types": ["node"],
+    "baseUrl": "."
+  },
+  "ts-node": {
+    "target": "node",
+    "compilerOptions": {
+      "module": "commonjs",
+      "lib": ["esnext"],
+      "types": ["node"]
+    }
+  }
+}
